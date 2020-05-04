@@ -1,0 +1,192 @@
+body
+{
+	background-image:url(Images/background.jpg);
+	background-size:cover;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/Freakshow.ttf);
+}
+
+.logo
+{
+	height:100px;
+	width:90p%;
+	font-family:myFont;
+	margin-right:10px;
+	font-size:3.5em;
+	color:#D50000;
+ 	text-shadow: 3px 3px 6px #999999;
+}
+
+@font-face {
+    font-family: myHeadFont;
+    src: url(Fonts/Marchand_de_Venise.ttf);
+}
+
+.heading
+{
+	height:80px;
+	width:90p%;
+	font-family:myHeadFont;
+	margin-left:16px;
+	font-size:4em;
+	color:#000000;
+ 	text-shadow: 3px 3px 6px #999999;
+	letter-spacing:3px;
+}
+
+a
+{
+	text-decoration:none;
+	color:#D50000;
+}
+
+#menu
+{
+	float:right;
+	width:100%;
+	height:50px;
+}
+
+.btn
+{
+	float:right;
+	width:100px;
+	height:25px;
+	padding:8px;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Consolas;
+	border-radius:9px;
+	background-color:#FF0000;
+	margin:5px;
+	text-align:center;
+	box-shadow: 3px 3px 3px #000000;
+	text-transform:uppercase;
+}
+
+.btn:hover
+{	
+	color:#FF0000;
+	background-color:#FFFFFF;
+	box-shadow: 5px 5px 3px #888888;
+}
+	
+.setleft
+{
+	float:left;
+	width:60%;
+}
+
+.setright
+{
+	float:right;
+	width:40%;
+	font-family:Comic Sans MS;
+	font-size:12px;
+	font-weight:100;
+}
+
+.copyright
+{	
+	text-align:center;
+	box-shadow: 0 0 30px 3px #4d4a4a;
+	background-color:#FFFFFF;	
+	background-image:url(Images/copyr.jpg);
+	padding:10px;
+	width:98%;
+	height:20px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+}	
+		  
+.enter
+{
+	width:100px;
+	height:25px;
+	padding:8px;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Consolas;
+	border-radius:9px;
+	background-color:#FF0000;
+	margin:5px;
+	text-align:center;
+	box-shadow: 3px 3px 3px #000000;
+	text-transform:uppercase;
+	transition: width 2s, 2s;
+}
+
+.enter:hover
+{
+	color:#00FFFFF;
+	background-color:#000000;
+	width:800px;
+}
+
+marquee
+{
+	text-decoration:blink;
+	font-size:24px;
+	font-weight:bold;
+}
+.set
+{
+	margin-left:20px;
+	margin-right:20px;
+	font-family:Lucida Calligraphy;
+	font-size:16px;
+	line-height: 18pt;
+	text-align:justify;
+
+}	
+
+.slider
+{
+	clear:both;
+	height:450px;
+	width:100%;
+}
+
+.slider embed
+{
+	width:100%;
+	height:100%;
+}
+
+p:first-child:first-letter
+{
+  color: #903;
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.curtains
+{
+	width:97%;
+	margin-left:20px;
+	margin-right:20px;
+	height:100%;
+	overflow:hidden;
+	transition:3s;
+}
+
+.curtains:hover img
+{
+	height:0px;
+}
+
+table,input,select, textarea
+{
+	font-size:20px;
+	font-family:Helvetica;
+}
